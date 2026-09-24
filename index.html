@@ -6,7 +6,10 @@
 <title>Capsulas</title>
 <style>
   body { font-family: system-ui, sans-serif; max-width: 42rem; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; color: #1d1d1f; background: #fff; }
-  @media (prefers-color-scheme: dark) { body { color: #e8e8ea; background: #161618; } a { color: #8ab4ff; } }
+  .yt { border: 1px solid #d0d0d5; border-radius: 8px; padding: .75rem 1rem; margin: 1.5rem 0; }
+  .yt strong { color: #c00; }
+  nav a { margin-right: 1rem; }
+  @media (prefers-color-scheme: dark) { body { color: #e8e8ea; background: #161618; } a { color: #8ab4ff; } .yt { border-color: #3a3a40; } .yt strong { color: #ff5a5a; } }
 </style>
 </head>
 <body>
@@ -17,7 +20,22 @@
   <li>publicar esas cápsulas en su propio canal de YouTube y en sus otras redes, siempre después de revisarlas.</li>
 </ul>
 <p>No es un servicio abierto al público: no tiene servidor, no ofrece cuentas y no accede a datos de otras personas.</p>
-<p><a href="privacidad.html">Política de privacidad</a></p>
+
+<h2>Cómo funciona</h2>
+<ol>
+  <li>El autor revisa y valida cada video terminado desde la línea de comandos de la herramienta.</li>
+  <li>La herramienta publica como máximo un video al día, con el título y la descripción que el autor aprobó.</li>
+  <li>Guarda una copia verificada en el Google Drive del autor.</li>
+</ol>
+
+<div class="yt">
+  <p><strong>Desarrollado con YouTube.</strong> Capsulas usa los Servicios de API de YouTube para subir videos y subtítulos al canal del autor. Al usarla se aceptan las <a href="https://www.youtube.com/t/terms">Condiciones del Servicio de YouTube</a>, y los datos se tratan según la <a href="https://policies.google.com/privacy">Política de Privacidad de Google</a>.</p>
+</div>
+
+<nav>
+  <a href="privacidad.html">Política de privacidad</a>
+  <a href="terminos.html">Condiciones del servicio</a>
+</nav>
 <p>Contacto: <a href="mailto:liberius69@gmail.com">liberius69@gmail.com</a></p>
 </body>
 </html>
